@@ -1,9 +1,4 @@
 <?php
-// Ruta al archivo backup.bat
-$backupScript = 'C:\backups\backups.bat';
-
-// Comando para ejecutar el script de forma oculta
-$command = "start /B \"\" \"$backupScript\"";
 
 // Ejecutar el comando
 exec($command);
