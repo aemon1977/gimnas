@@ -1,7 +1,5 @@
 <?php
 
-// Ejecutar el comando
-exec($command);
 // Conexión a la base de datos
 $servername = "localhost";
 $username = "root";
